@@ -265,7 +265,6 @@ img {
   padding-bottom: 30px;
   border-radius: 0 0 4px 4px;
 }
-
 .team-title {
   font-weight: 700;
   font-size: 36px;
@@ -330,7 +329,7 @@ img {
   display: flex;
   justify-content: space-between;
 }
-.clients-item {
+.clients-link {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -340,13 +339,14 @@ img {
   border: 1px solid #afb1b8;
   border-radius: 4px;
 }
-.clients-item:hover {
+.clients-link:hover {
   border-color: #2196f3;
 }
 .clients-item-icon {
   fill: #afb1b8;
 }
-.clients-item:hover .clients-item-icon {
+.clients-link:hover .clients-item-icon,
+.clients-link:focus .clients-item-icon {
   fill: #2196f3;
 }
 /*-------------FOOTER-----------------*/
@@ -358,9 +358,6 @@ img {
 .footer .container {
   display: flex;
 }
-/* .footer-contacts {
-  width: 271px;
-} */
 .footer-logo {
   font-family: 'Raleway', sans-serif;
   font-style: normal;
